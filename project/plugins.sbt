@@ -34,3 +34,7 @@ addSbtPlugin("com.typesafe.sbt" % "sbt-pgp" % "0.8")
 libraryDependencies += "org.ow2.asm"  % "asm" % "5.0.3"
 
 libraryDependencies += "org.ow2.asm"  % "asm-commons" % "5.0.3"
+
+addSbtPlugin("org.scoverage" % "sbt-scoverage" % "1.1.0")
+
+addSbtPlugin("org.scoverage" % "sbt-coveralls" % "1.0.0")
